@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <link rel="icon" href="/public/favicon.ico" />
       <body className="bg-[#0e1f0e] text-white antialiased overflow-x-hidden">
         {children}
       </body>
