@@ -47,8 +47,8 @@ export default function Navbar() {
             onClick={() => handleNavClick("#home")}
             className="flex items-center gap-2 group"
           >
-            <div className="w-10 h-10 rounded-full border border-[#d4a853]/60 flex items-center justify-center group-hover:border-[#d4a853] transition-colors duration-300">
-              <TreePine className="w-5 h-5 text-[#d4a853]" />
+            <div className="w-10 h-10 rounded-full flex items-center justify-center group-hover:border-[#d4a853] transition-colors duration-300">
+              <img className="" src="/icon.png" alt="" />
             </div>
             <div className="leading-tight">
               <p className="text-[10px] tracking-[0.2em] text-[#d4a853] uppercase font-light">

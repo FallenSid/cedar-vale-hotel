@@ -32,8 +32,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-9 h-9 rounded-full border border-[#d4a853]/50 flex items-center justify-center">
-                <TreePine className="w-4 h-4 text-[#d4a853]" />
+              <div className="w-9 h-9 rounded-full  flex items-center justify-center">
+                {/* <TreePine className="w-4 h-4 text-[#d4a853]" /> */}
+              <img className="w-9 h-9" src="/icon.png" alt="" />
+
               </div>
               <div>
                 <p className="text-[9px] tracking-[0.2em] text-[#d4a853] uppercase">The</p>
